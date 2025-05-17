@@ -1,0 +1,797 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+  line-height: 1.5; 
+  background-color: #0f0f0f;
+}
+
+p,h4 {
+  font-size: 1.25rem; 
+  margin-bottom: 0.5rem; 
+}
+#Justify{
+  text-align:justify;
+}
+.name{
+  color: #404041;
+}
+.job{
+  color: #ff004c;
+}
+header {
+  background: #8b203b;
+  padding: 1.5rem 1rem; 
+  position: relative;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 25rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 20rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 43rem;
+}
+/*Termina*/
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+nav.indice {
+  background: #1c1c1c;
+}
+nav.indice2 {
+  background: #b32f50;
+  font-family:'Trebuchet MS'!important;
+}
+
+nav ul.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+  padding: 1rem;
+}
+
+nav ul.menu > li {
+  position: relative;
+  margin: 0.1rem 0.7rem; 
+}
+
+nav ul.menu a {
+  display: block;
+  color: #efefef;
+  text-decoration: none;
+  padding: 0rem 2rem; 
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+nav ul.menu a:hover {
+  background: #b32f50;
+}
+
+.desplegable-content {
+  display: none;
+  position:absolute;
+  top: 100%;
+  left: 0rem;
+  background: #1c1c1c;
+  min-width: 15rem; 
+  list-style: none;
+  padding: 0;
+  z-index: 1000;
+  border-radius: 0.5rem;
+}
+
+.desplegable-content li a {
+  padding: 0.5rem; 
+  font-size: 1rem; 
+}
+
+.desplegable:hover .desplegable-content {
+  display: block;
+}
+
+.toggle-menu {
+  display: none;
+  position: absolute;
+  top: 1rem; 
+  right: 1rem; 
+  background: none;
+  border: none;
+  color: #efefef;
+  font-size: 1.2rem; 
+  cursor: pointer;
+}
+
+section {
+  padding: 0.5rem 2rem;
+}
+
+footer {
+  background: #1c1c1c;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+.table1 {
+  border-collapse:collapse;
+  margin: 1rem 0rem;
+  width: 100%;
+  
+}
+
+.table1 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table1 img {
+  display: flex;
+  max-width: 7rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+
+}
+.table2 {
+  border-collapse: collapse;
+  margin: 0rem auto;
+  width: 100%; 
+}
+
+.table2 td {
+  border: none;
+  padding: 0rem; 
+  text-align: center;
+  white-space: nowrap; 
+}
+
+.table2 img {
+  display: block;
+  max-width:12rem; 
+  height: auto;
+  margin: 0 auto;
+  margin-right:-11rem;
+  float:left;
+}
+
+.table3 {
+  border-collapse: collapse;
+  margin: 0rem 0rem;
+  width: 100%;
+}
+
+.table3 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table3 img {
+  display: block;
+  max-width: 6rem; 
+  height: auto;
+  margin-bottom: -0.5rem;
+  float:left;
+}
+
+hr {
+  border-left: 15rem solid #c4024f;
+}
+a:link{
+   color:#efefef;
+}
+a:visited{
+  color:#efefef;
+}
+a:hover{
+  color:#b32f50;
+}
+a:active{
+   color:#c4024f;
+}
+*{
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Ajustes de resoluciones*/
+@media (max-width: 768px) {
+  /* ajustes para tablets pequeñas y móviles grandes*/
+
+p,h4 {
+  font-size: 1rem; 
+  margin-bottom: 1rem; 
+}
+header {
+  background: #8b203b;
+  padding: 1rem 1rem; 
+  position: relative;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 16rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 14rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 18rem;
+}
+/*Termina*/
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+nav.indice {
+  background: #1c1c1c;
+}
+nav.indice2 {
+  background: #b32f50;
+  font-family:'Trebuchet MS'!important;
+}
+
+nav ul.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+nav ul.menu > li {
+  position: relative;
+  margin: 0.5rem 0rem; 
+}
+
+nav ul.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0rem 1rem; 
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+nav ul.menu a:hover {
+  background: #b32f50;
+}
+
+.desplegable-content {
+  display: none;
+  position:absolute;
+  top: 100%;
+  left: 0rem;
+  background: #1c1c1c;
+  min-width: 1rem; 
+  list-style: none;
+  padding: 0;
+  z-index: 1000;
+  border-radius: 0.5rem;
+}
+
+.desplegable-content li a {
+  padding: 0.5rem; 
+  font-size: 1rem; 
+}
+
+.desplegable:hover .desplegable-content {
+  display: block;
+}
+
+.toggle-menu {
+  display: none;
+  position: absolute;
+  top: 1rem; 
+  right: 1rem; 
+  background: none;
+  border: none;
+  color: #efefef;
+  font-size: 1.2rem; 
+  cursor: pointer;
+}
+
+section {
+  padding: 0rem 2rem;
+}
+
+footer {
+  background: #1c1c1c;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+.table1 {
+  border-collapse:collapse;
+  margin: 1rem 0rem;
+  width: 100%;
+  
+}
+
+.table1 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table1 img {
+  display: flex;
+  max-width: 4.5rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+
+}
+.table2 {
+  border-collapse: collapse;
+  margin: 0rem auto;
+  width: 100%; 
+}
+
+.table2 td {
+  border: none;
+  padding: 0rem; 
+  text-align: center;
+  white-space: nowrap; 
+}
+
+.table2 img {
+  display: block;
+  max-width:11rem; 
+  height: auto;
+  margin: 0 auto;
+  margin-right:0rem;
+  float:left;
+}
+
+.table3 {
+  border-collapse: collapse;
+  margin: 0rem 0rem;
+  width: 100%;
+}
+
+.table3 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table3 img {
+  display: block;
+  max-width: 5rem; 
+  height: auto;
+  margin-bottom: -0.5rem;
+  float:left;
+}
+}
+
+/*Cambio de ajuste de resolucion*/
+
+@media (max-width: 576px) {
+ /* Media query para móviles (tamaño típico) */
+
+p,h4 {
+  font-size: 0.8rem; 
+  margin-bottom: 0rem; 
+}
+header {
+  background: #8b203b;
+  padding: 0.2rem 0.2rem; 
+  position: relative;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 10rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 8rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 9rem;
+}
+/*Termina*/
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+nav.indice {
+  background: #1c1c1c;
+}
+nav.indice2 {
+  background: #b32f50;
+  font-family:'Trebuchet MS'!important;
+}
+
+nav ul.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+nav ul.menu > li {
+  position: relative;
+  margin: 0.5rem 0rem; 
+}
+
+nav ul.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0rem 0.5rem; 
+  font-size: 0.6rem;
+  transition: background 0.3s ease;
+}
+
+nav ul.menu a:hover {
+  background: #b32f50;
+}
+
+.desplegable-content {
+  display: none;
+  position:absolute;
+  top: 100%;
+  left: 0rem;
+  background: #1c1c1c;
+  min-width: 0.1rem; 
+  list-style: none;
+  padding: 0;
+  z-index: 1000;
+  border-radius: 0.5rem;
+}
+
+.desplegable-content li a {
+  padding: 0rem; 
+  font-size: 0.5rem; 
+}
+
+.desplegable:hover .desplegable-content {
+  display: block;
+}
+
+.toggle-menu {
+  display: none;
+  position: absolute;
+  top: 1rem; 
+  right: 1rem; 
+  background: none;
+  border: none;
+  color: #efefef;
+  font-size: 1.2rem; 
+  cursor: pointer;
+}
+
+section {
+  padding: 0rem 1rem;
+}
+
+footer {
+  background: #1c1c1c;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+.table1 {
+  border-collapse:collapse;
+  margin: 1rem 0rem;
+  width: 100%;
+  
+}
+
+.table1 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table1 img {
+  display: flex;
+  max-width:2rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+
+}
+#menor{
+  font-size: 0.9rem;
+}
+.table2 {
+  border-collapse: collapse;
+  margin: 0rem auto;
+  width: 100%; 
+}
+
+.table2 td {
+  border: none;
+  padding: 0rem; 
+  text-align: center;
+  white-space: nowrap; 
+}
+
+.table2 img {
+  display: block;
+  max-width:5rem; 
+  height: auto;
+  margin: 0 auto;
+  margin-right:0rem;
+  float:left;
+}
+.tamaño{
+
+  font-size:0.7rem;
+}
+.table3 {
+  border-collapse: collapse;
+  margin: 0rem 0rem;
+  width: 100%;
+}
+
+.table3 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table3 img {
+  display: block;
+  max-width: 3rem; 
+  height: auto;
+  margin-bottom: -0.5rem;
+  float:left;
+}
+}
+@media (max-width: 375px) {
+ /* Media query para móviles (tamaño pequeño) */
+
+p {
+  font-size: 0.8rem; 
+  margin-bottom: 0rem; 
+}
+header {
+  background: #8b203b;
+  padding: 0.4rem 1rem; 
+  position: relative;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 10rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 9rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 4.5rem;
+}
+/*Termina*/
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+nav.indice {
+  background: #1c1c1c;
+}
+nav.indice2 {
+  background: #b32f50;
+  font-family:'Trebuchet MS'!important;
+}
+
+nav ul.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+nav ul.menu > li {
+  position: relative;
+  margin: 0.2rem 0rem; 
+}
+
+nav ul.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0rem 0.2rem; 
+  font-size: 0.6rem;
+  transition: background 0.3s ease;
+}
+
+nav ul.menu a:hover {
+  background: #b32f50;
+}
+
+.desplegable-content {
+  display: none;
+  position:absolute;
+  top: 100%;
+  left: 0rem;
+  background: #1c1c1c;
+  min-width: 0.1rem; 
+  list-style: none;
+  padding: 0;
+  z-index: 1000;
+  border-radius: 0.5rem;
+}
+
+.desplegable-content li a {
+  padding: 0rem; 
+  font-size: 0.5rem; 
+}
+
+.desplegable:hover .desplegable-content {
+  display: block;
+}
+
+.toggle-menu {
+  display: none;
+  position: absolute;
+  top: 1rem; 
+  right: 1rem; 
+  background: none;
+  border: none;
+  color: #efefef;
+  font-size: 1.2rem; 
+  cursor: pointer;
+}
+
+section {
+  padding: 0rem 1rem;
+}
+
+footer {
+  background: #1c1c1c;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+.table1 {
+  border-collapse:collapse;
+  margin: 1rem 0rem;
+  width: 100%;
+  
+}
+
+.table1 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table1 img {
+  display: flex;
+  max-width:2rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+
+}
+#menor{
+  font-size: 0.9rem;
+}
+.table2 {
+  border-collapse: collapse;
+  margin: 0rem auto;
+  width: 100%; 
+}
+
+.table2 td {
+  border: none;
+  padding: 0rem; 
+  text-align: center;
+  white-space: nowrap; 
+}
+
+.table2 img {
+  display: block;
+  max-width:5rem; 
+  height: auto;
+  margin: 0 auto;
+  margin-right:-0.5rem;
+  float:left;
+}
+.tamaño{
+
+  font-size:0.6rem;
+}
+.table3 {
+  border-collapse: collapse;
+  margin: 0rem 0rem;
+  width: 100%;
+}
+
+.table3 td {
+  border: none;
+  padding: 0rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table3 img {
+  display: block;
+  max-width: 3rem; 
+  height: auto;
+  margin-bottom: -0.5rem;
+  float:left;
+}
+}
+/* Aqui termina*/

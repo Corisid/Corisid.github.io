@@ -1,0 +1,418 @@
+html{
+  font-size: 15px;
+}
+
+body {
+  position: relative; 
+  margin: 0;
+  padding: 0;
+  line-height: 1.5; 
+}
+
+header {
+  background: #8b203b;
+  padding: 1.5rem 1rem; 
+  position: relative;
+}
+
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-right: 15rem; 
+}
+
+hr {
+  border-left: 15rem solid #c4024f;
+}
+
+#Justify{
+  text-align:justify;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 25rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 20rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 43rem;
+}
+/*Termina*/
+footer {
+  background: #1c1c1c;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+
+/*Imagenes a la derecha*/
+.aside-images {
+  position: absolute;
+  top: 13rem; 
+  right: 8rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images img {
+  display: flex;
+  max-width:4.5rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+
+.aside-images2 {
+  position: absolute;
+  top: 13rem; 
+  right: 2rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images2 img {
+  display: flex;
+  max-width:4.5rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+/*Termina*/
+nav.indice {
+  background: #1c1c1c;
+}
+nav.indice2 {
+  background: #b32f50;
+  font-family:'Trebuchet MS';
+}
+
+nav ul.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul.menu > li {
+  position: relative;
+  margin: 0 0rem;
+}
+
+nav ul.menu a {
+  display: block;
+  color: #efefef;
+  text-decoration: none;
+  padding: 1rem; 
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+nav ul.menu a:hover {
+  background: #333;
+}
+
+section {
+  padding: 0.5rem 2rem;
+}
+
+a:link{
+   color:#efefef;
+}
+a:visited{
+  color:#efefef;
+}
+a:hover{
+  color:#b32f50;
+}
+a:active{
+   color:#c4024f;
+}
+*{
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Ajustes de resoluciones*/
+@media (max-width: 768px) {
+  /* ajustes para tablets pequeñas y móviles grandes*/
+p,h4 {
+  font-size: 1rem; 
+  margin-bottom: 1rem; 
+}
+header {
+  background: #8b203b;
+  padding: 1rem 1rem; 
+  position: relative;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 16rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 14rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 18rem;
+}
+/*Termina*/
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-right: 15rem; 
+}
+.aside-images {
+  position: absolute;
+  top: 10rem; 
+  right: 8rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images img {
+  display: flex;
+  max-width:4.5rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+
+.aside-images2 {
+  position: absolute;
+  top: 10rem; 
+  right: 2rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images2 img {
+  display: flex;
+  max-width:4.5rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+section {
+  padding: 0rem 1rem;
+}
+
+nav ul.menu a {
+  display: block;
+  color: #efefef;
+  text-decoration: none;
+  padding: 0.5rem; 
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+}
+/*Cambio de ajuste de resolucion*/
+
+@media (max-width: 576px) {
+ /* Media query para móviles (tamaño típico) */
+p,h4 {
+  font-size: 0.8rem; 
+  margin-bottom: 0rem; 
+}
+header {
+  background: #8b203b;
+  padding: 0.9rem 0.5rem; 
+  position: relative;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 11rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 10rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 6rem;
+}
+/*Termina*/
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-right: 5rem;
+}
+
+.aside-images {
+  position: absolute;
+  top: 8rem; 
+  right: 1rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images img {
+  display: flex;
+  max-width:3rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+
+.aside-images2 {
+  position: absolute;
+  top: 27rem; 
+  right: 1rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images2 img {
+  display: flex;
+  max-width:3rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+section {
+  padding: 0rem 0rem;
+}
+
+nav ul.menu a {
+  display: block;
+  color: #efefef;
+  text-decoration: none;
+  padding: 1rem; 
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+}
+/*Cambio de ajuste de resolucion*/
+@media (max-width: 375px) {
+ /* Media query para móviles (tamaño pequeño) */
+
+p {
+  font-size: 0.8rem; 
+  margin-bottom: 0rem; 
+}
+header {
+  background: #8b203b;
+  padding: 0.4rem 1rem; 
+  position: relative;
+}
+/*Configuracion de logo y membrete */
+.Present img {
+  display: block;
+  max-width: 10rem;
+  height: auto;
+}
+
+.Present2 img {
+  display: block;
+  max-width: 9rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.present-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 4.5rem;
+}
+/*Termina*/
+.info {
+  background: #efefef;
+  padding: 1rem; 
+  margin: 0.5rem; 
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-right:7rem;
+}
+.aside-images {
+  position: absolute;
+  top: 7.5rem; 
+  right: 2rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images img {
+  display: flex;
+  max-width:3rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+
+.aside-images2 {
+  position: absolute;
+  top: 26.5rem; 
+  right: 2rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem; 
+}
+
+.aside-images2 img {
+  display: flex;
+  max-width:3rem; 
+  height: auto;
+  border-radius: 5rem;
+  box-shadow: 0 0.1rem 1rem rgba(255, 0, 64, 0.6); 
+}
+section {
+  padding: 0rem 0rem;
+}
+
+nav ul.menu a {
+  display: block;
+  color: #efefef;
+  text-decoration: none;
+  padding: 1rem; 
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+}
+/*Aqui termina*/
